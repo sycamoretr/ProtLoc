@@ -3,4 +3,4 @@ Multi-label protein subcellular localization based on GraphSAGE and multi-head a
 
 **Requirements**
 =
-torch   
+Package    Version  
