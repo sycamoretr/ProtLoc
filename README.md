@@ -15,3 +15,17 @@ numpy==1.22.4
 scikit-learn==1.3.0  
 sentence-transformers==2.2.2  
 
+**Model Training and Prediction Steps**
+=
+**1. Gets and processes the protein's pdb file to obtain the carbon atom location information and save it as an npy file. You can run the following script.**  
+python get_pdb.py    
+**2. Calculate the Euclidean distance between carbon atoms and save it as a csv file. You can run the following script.**  
+python adj_matrix.py      
+**3. Use the protein language model ESM-2 to code the protein sequence and save it as a csv file. You can run the following script.**    
+python esm2.py    
+**4. Constructing the dataset. You can run the following script.**  
+python dataset.py    
+**5. To train the model, you can run the following script.**    
+python train.py    
+**6. You can also use our trained parameters for prediction directly after implementing steps 1, 2, 3, and 4. You can run the following script.**  
+python predict.py    
