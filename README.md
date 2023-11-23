@@ -17,7 +17,6 @@ sentence-transformers==2.2.2
 
 # Project tree
 
-.
  * [data](./dir2)
    * [adj_matrix](./dir2/file21.ext)
    * [esm_3b_csv](./dir2/file22.ext)
