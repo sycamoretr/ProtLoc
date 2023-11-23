@@ -21,16 +21,28 @@ $ ./tree-md .
 
 .
  * data
- * [model](./dir2)
-   * [file21.ext](./dir2/file21.ext)
-   * [file22.ext](./dir2/file22.ext)
-   * [file23.ext](./dir2/file23.ext)
- * [dir1](./dir1)
-   * [file11.ext](./dir1/file11.ext)
+ * [data](./dir2)
+   * [adj_matrix](./dir2/file21.ext)
+   * [esm_3b_csv](./dir2/file22.ext)
+   * [pdb](./dir2/file23.ext)
+   * [adj_matrix.py]
+   * [dataset.py]
+   * [esm2.py]
+   * [get_pdb.py]
+   * [test_label_dict.npy]
+   * [testdata.fasta]
+   * [train_data.fasta]
+   * [train_label_dict.npy]
+   * [val_data.fasta]
+ * [model](./dir1)
+   * [model.py]
    * [file12.ext](./dir1/file12.ext)
- * [file_in_root.ext](./file_in_root.ext)
+ * [utils](./file_in_root.ext)
+   * [Evaluation_metrics.py](./dir1/file12.ext)
+ * [train.py](./file_in_root.ext)
+ * [predict.py]
  * [README.md](./README.md)
- * [dir3](./dir3)
+ 
 
 **Model Training and Prediction Steps**
 =
