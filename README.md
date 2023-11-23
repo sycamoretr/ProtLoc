@@ -38,7 +38,7 @@ numpy==1.22.4
 scikit-learn==1.3.0  
 sentence-transformers==2.2.2  
 
-**Model Training and Prediction Steps**
+**If you want to reproduce our model, follow the steps below to run the script.**
 =
 **1. Gets and processes the protein's pdb file to obtain the carbon atom location information and save it as an npy file. You can run the following script.**   
 > python get_pdb.py
