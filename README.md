@@ -1,5 +1,4 @@
-# ProtLoc
-Multi-label protein subcellular localization based on GraphSAGE and multi-head attention mechanism.  
+# Multi-label protein subcellular localization based on GraphSAGE and multi-head attention mechanism.  
 
 **Requirements**
 =
@@ -16,11 +15,9 @@ scikit-learn==1.3.0
 sentence-transformers==2.2.2  
 
 
-$ ./tree-md .
 # Project tree
 
 .
- * data
  * [data](./dir2)
    * [adj_matrix](./dir2/file21.ext)
    * [esm_3b_csv](./dir2/file22.ext)
@@ -47,7 +44,7 @@ $ ./tree-md .
 **Model Training and Prediction Steps**
 =
 **1. Gets and processes the protein's pdb file to obtain the carbon atom location information and save it as an npy file. You can run the following script.**  
-python get_pdb.py    
+> python get_pdb.py    
 **2. Calculate the Euclidean distance between carbon atoms and save it as a csv file. You can run the following script.**  
 python adj_matrix.py      
 **3. Use the protein language model ESM-2 to code the protein sequence and save it as a csv file. You can run the following script.**    
